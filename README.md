@@ -1,1 +1,1 @@
-# Analiza-danych-w-Python-09_12_24
+# Szkolenie z analizy danych w Python [9-12.12.24]
