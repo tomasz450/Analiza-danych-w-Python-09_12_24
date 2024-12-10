@@ -86,3 +86,21 @@ wartości brakujące (określone przez `na_values`) zostaną zamienione na `nump
 2. **Oracle** -> cx_Oracle
 3. **MySQL** -> pymysql
 4. **Microsoft SQL Server** -> pyodbc
+
+--------------------------------------------------------------------------------------
+
+## Polecane książki :)
+
+
+- Data science od podstaw. Analiza danych w Pythonie. Wydanie II
+
+![alt text](image-1.png)
+
+- Python w analizie danych. Przetwarzanie danych za pomocą pakietów Pandas i NumPy oraz środowiska IPython. Wydanie II
+
+![alt text](image-2.png)
+
+- Statystyka praktyczna w data science. 50 kluczowych zagadnień w językach R i Python. Wydanie II
+
+![alt text](image-3.png)
+
