@@ -38,9 +38,9 @@ print(numbers)
 
 komendy do sprawdzania wersji pythona:
 - python –-version
-- Py -0
+- py -0
 
-OPCJONALNIE : - zmiana zmiennych środowiskowych (environmental variables) - jeśli jest wymagana
+*OPCJONALNIE* : - zmiana zmiennych środowiskowych (environmental variables) - jeśli jest wymagana
 
 Tworzenie środowiska wirtualnego:
 
@@ -50,10 +50,10 @@ Tworzenie środowiska wirtualnego:
 4. python -m ipykernel install --user --name=<nazwa_środowiska> --display-name "Python (<nazwa_środowiska>)"
 5. jupyter notebook
 
-OPCJONALNIE : usunięcie środowiska:
+*OPCJONALNIE* : usunięcie środowiska:
 
 1. rmdir /s /q <nazwa_środowiska>
 
-OPCJONALNIE : usunięcie kertnera Jupiter:
+*OPCJONALNIE* : usunięcie kertnera Jupiter:
 
 1. usunięcie ręczne folderu z nazwą kernela w Jupiter w odpowiedniej ścieżce: C:\Users\labuser\AppData\Roaming\jupyter\kernels
