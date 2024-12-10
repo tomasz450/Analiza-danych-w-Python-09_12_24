@@ -12,7 +12,7 @@ o module numpy.linalg: https://numpy.org/doc/stable/reference/routines.linalg.ht
 
 o module numpy.random: https://numpy.org/doc/stable/reference/random/legacy.html
 
-##### Losowanie 6 liczb z przedziału [1, 49] bez powtórzeń
+### Losowanie 6 liczb z przedziału [1, 49] bez powtórzeń
 
 ```python
 numbers = np.random.choice(np.arange(1, 50), size=6, replace=False)
@@ -57,3 +57,21 @@ Tworzenie środowiska wirtualnego:
 *OPCJONALNIE* : usunięcie kertnera Jupiter:
 
 1. usunięcie ręczne folderu z nazwą kernela w Jupiter w odpowiedniej ścieżce: C:\Users\labuser\AppData\Roaming\jupyter\kernels
+
+--------------------------------------------------------------------------------------
+
+## PANDAS
+
+### Zarządzanie brakami danych przy wczytywaniu pandas.DataFrame()
+
+```python
+import pandas as pd
+
+df = pd.read_csv(
+    "plik.csv",
+    na_values=["NA", "Brak", "-", "None", " "]  # Wartości traktowane jako brakujące
+)
+
+print(df)
+```
+wartości brakujące (określone przez `na_values`) zostaną zamienione na `numpy.nan`
