@@ -75,3 +75,14 @@ df = pd.read_csv(
 print(df)
 ```
 wartości brakujące (określone przez `na_values`) zostaną zamienione na `numpy.nan`
+
+### SQL w pandas
+
+- PandasQL (pandasql)
+
+### Łącznie się z istniejącą bazą danych:
+
+1. PostgreSQL -> psycopg2
+2. Oracle -> cx_Oracle
+3. MySQL -> pymysql
+4. Microsoft SQL Server -> pyodbc
