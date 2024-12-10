@@ -37,8 +37,8 @@ print(numbers)
 ### Python VENV:
 
 komendy do sprawdzania wersji pythona:
-    - python –-version
-    - Py -0
+- python –-version
+- Py -0
 
 OPCJONALNIE : - zmiana zmiennych środowiskowych (environmental variables) - jeśli jest wymagana
 
@@ -51,7 +51,9 @@ Tworzenie środowiska wirtualnego:
 5. jupyter notebook
 
 OPCJONALNIE : usunięcie środowiska:
-    1. rmdir /s /q <nazwa_środowiska>
+
+1. rmdir /s /q <nazwa_środowiska>
 
 OPCJONALNIE : usunięcie kertnera Jupiter:
-    1. usunięcie ręczne folderu z nazwą kernela w Jupiter w odpowiedniej ścieżce: C:\Users\labuser\AppData\Roaming\jupyter\kernels
+
+1. usunięcie ręczne folderu z nazwą kernela w Jupiter w odpowiedniej ścieżce: C:\Users\labuser\AppData\Roaming\jupyter\kernels
