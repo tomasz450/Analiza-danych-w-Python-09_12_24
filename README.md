@@ -82,7 +82,7 @@ wartości brakujące (określone przez `na_values`) zostaną zamienione na `nump
 
 ### Łącznie się z istniejącą bazą danych:
 
-1. PostgreSQL -> psycopg2
-2. Oracle -> cx_Oracle
-3. MySQL -> pymysql
-4. Microsoft SQL Server -> pyodbc
+1. **PostgreSQL** -> psycopg2
+2. **Oracle** -> cx_Oracle
+3. **MySQL** -> pymysql
+4. **Microsoft SQL Server** -> pyodbc
