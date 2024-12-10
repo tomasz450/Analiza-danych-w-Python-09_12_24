@@ -28,10 +28,10 @@ print(numbers)
 
 2. Przez terminal Anaconda Prompt:
 
-    1. conda create --name <nazwa_środowiska> python=3.12.7
-    2. conda activate <nazwa_środowiska>
+    1. conda create --name `nazwa_środowiska` python=3.12.7
+    2. conda activate `nazwa_środowiska`
     3. pip install notebook ipykernel
-    4. python -m ipykernel install --user --name=<nazwa_środowiska> --display-name "Conda (<nazwa_środowiska>)"
+    4. python -m ipykernel install --user --name=`nazwa_środowiska` --display-name "Conda (`nazwa_środowiska`)"
     5. jupyter notebook
 
 ### Python VENV:
@@ -44,15 +44,15 @@ komendy do sprawdzania wersji pythona:
 
 Tworzenie środowiska wirtualnego:
 
-1. py -3.13 -m venv <nazwa_środowiska>
-2. <nazwa_środowiska>\Scripts\activate **LUB** source <nazwa_środowiska>/bin/activate  # dla systemów Unix
+1. py -3.13 -m venv `nazwa_środowiska`
+2. `nazwa_środowiska`\Scripts\activate **LUB** source `nazwa_środowiska`/bin/activate  # dla systemów Unix
 3. pip install notebook ipykernel
-4. python -m ipykernel install --user --name=<nazwa_środowiska> --display-name "Python (<nazwa_środowiska>)"
+4. python -m ipykernel install --user --name=`nazwa_środowiska` --display-name "Python (`nazwa_środowiska`)"
 5. jupyter notebook
 
 *OPCJONALNIE* : usunięcie środowiska:
 
-1. rmdir /s /q <nazwa_środowiska>
+1. rmdir /s /q `nazwa_środowiska`
 
 *OPCJONALNIE* : usunięcie kertnera Jupiter:
 
